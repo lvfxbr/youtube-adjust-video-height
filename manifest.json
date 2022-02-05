@@ -1,0 +1,13 @@
+{
+    "name": "Adjust YouTube Video Height",
+    "description": "Adjust video height of YouTube without having black side bars.",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["https://*.youtube.com/*"], 
+          "css" : ["youtube.com.css"],
+          "js" : ["youtube.com.js"]
+        }
+    ]
+}
