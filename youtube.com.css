@@ -1,0 +1,33 @@
+.ayvh-badge-resize {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(204, 0, 0);
+    box-sizing: border-box;
+    cursor: pointer;
+    cursor: s-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: 
+        0px 3px 5px -1px rgb(0 0 0 / 20%), 
+        0px 6px 10px 0px rgb(0 0 0 / 14%), 
+        0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+
+.ayvh-badge-resize:before {
+    content: '\2195';
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin-top: -4px;
+}
+
+.ayvh-disable-user-select,
+.ayvh-disable-user-select *{
+    user-select: none;
+}
